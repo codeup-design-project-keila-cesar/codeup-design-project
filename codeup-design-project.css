@@ -1,0 +1,10 @@
+h1, h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.icon {
+    background-color: #E6563B;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
