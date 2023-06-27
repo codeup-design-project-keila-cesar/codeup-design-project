@@ -6,7 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Codeup Design</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -15,68 +16,55 @@
 
 </head>
 <body>
-    <div class="page-wrapper">
-        <nav class="container">
-            <div class="row">
-                <div class="col">
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col py-3">
                 <!-- NAV FROM BOOTSTRAP -->
+                <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
-                    <header class="p-3 mb-3 border-bottom">
-                        <div class="container">
-                            <!-- NAV FROM BOOTSTRAP -->
-                            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <img src="img/assets/logo.png" height="40" width="40"/>
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#" class="nav-link px-2 link-body-emphasis fw-bold">codeup design</a></li>
+                        <li><a href="#" class="nav-link px-2 link-secondary ms-3">SERVICES</a></li>
+                        <li><a href="#" class="nav-link px-2 link-secondary">WORK</a></li>
+                        <li><a href="#" class="nav-link px-2 link-secondary">BLOG</a></li>
+                        <li><a href="#" class="nav-link px-2 link-secondary">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
 
-                                <img src="img/assets/logo.png" height="105" width="105"/>
-                                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                                    <li><a href="#" class="nav-link px-2 link-secondary">codeup design</a></li>
-                                    <li><a href="#" class="nav-link px-2 link-body-emphasis">SERVICES</a></li>
-                                    <li><a href="#" class="nav-link px-2 link-body-emphasis">WORK</a></li>
-                                    <li><a href="#" class="nav-link px-2 link-body-emphasis">BLOG</a></li>
-                                    <li><a href="#" class="nav-link px-2 link-body-emphasis">CONTACT</a></li>
-                                </ul>
-                            </div>
-                            <!-- NAV FROM BOOTSTRAP -->
-                            <main class="container">
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1 class="fw-bold">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-                                        <h2 class="fw-bold">FROM PARK CITY, UTAH</h2>
-                                    </div>
-                                </div>
-                            </main>
-                            <!-- ICONS START -->
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col d-flex gap-4 justify-content-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="#E6563B" class="bi bi-circle-fill" viewBox="0 0 16 16">
-                                            <circle cx="8" cy="8" r="8"/>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="#EB9D3A" class="bi bi-circle-fill" viewBox="0 0 16 16">
-                                            <circle cx="8" cy="8" r="8"/>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="#7CB06C" class="bi bi-circle-fill" viewBox="0 0 16 16">
-                                            <circle cx="8" cy="8" r="8"/>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="#00ABA9" class="bi bi-circle-fill" viewBox="0 0 16 16">
-                                            <circle cx="8" cy="8" r="8"/>
-                                        </svg>
-                                    </div>
+    <header class="container py-2 p-3 mb-3">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="fw-bold py-2">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+                <h2 class="fw-bold py-4">FROM PARK CITY, UTAH</h2>
+            </div>
+        </div>
 
-                                </div>
+        <!-- ICONS START -->
+            <div class="row">
+                <div class="col d-flex gap-4 justify-content-center">
 
-                            </div>
-                            <!-- ICONS END -->
-                        </div>
-                    </header>
-
-
+                    <div class="d-flex gap-4">
+                        <div class="align-self-center text-center design-icon icon-border button"><span>DESIGN</span></div>
+                        <div class="align-self-center text-center develop-icon icon-border button"><span>DEVELOP</span></div>
+                        <div class="align-self-center text-center support-icon icon-border button"><span>SUPPORT</span></div>
+                        <div class="align-self-center text-center host-icon icon-border button"><span>HOST</span></div>
+                    </div>
                 </div>
             </div>
 
-        </nav>
-    </div>
+        <hr class="mt-5">
+        <!-- ICONS END -->
+    </header>
+</div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 </html>
