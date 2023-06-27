@@ -115,3 +115,12 @@ nav{
    object-fit: cover;
 
 }
+
+.post-thumbnail {
+    flex: 0 0 100px;
+    width: 100px;
+    aspect-ratio: 1/1;
+    max-width: unset;
+    border: 5px solid #E6E6E6;
+    object-fit: cover;
+}
