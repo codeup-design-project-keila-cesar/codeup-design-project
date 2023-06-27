@@ -63,37 +63,49 @@ nav{
 }
 
 .tiny-icon1 {
-    flex: 0 0 18px;
-    width: 18px;
+    display:flex;
+    height:2rem;
+    width: 2rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: #E6563B;
     font-family: 'Anton', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 
 .tiny-icon2 {
-    flex: 0 0 18px;
-    width: 18px;
+    display:flex;
+    height:2rem;
+    width: 2rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: #EB9D3A;
     font-family: 'Anton', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 .tiny-icon3 {
-    flex: 0 0 18px;
-    width: 18px;
+    display:flex;
+    height:2rem;
+    width: 2rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: #7CB06C;
     font-family: 'Anton', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 .tiny-icon4 {
-    flex: 0 0 18px;
-    width: 18px;
+    display:flex;
+    height:2rem;
+    width: 2rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: #00ABA9;
     font-family: 'Anton', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 500px) {
@@ -123,4 +135,10 @@ nav{
     max-width: unset;
     border: 5px solid #E6E6E6;
     object-fit: cover;
+}
+h4{
+    font-family: 'Anton', sans-serif;
+}
+.post-thumbnail{
+    border-radius:8px;
 }
