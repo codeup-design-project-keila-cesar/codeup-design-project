@@ -72,9 +72,8 @@ nav{
 }
 
 /*img {*/
-/*    flex: 0 0 10px;*/
-/*    aspect-ratio: 1/1;*/
-/*}*/
+/*     border-right:10px;*/
+/* }*/
 
 @media screen and (max-width: 500px) {
     .hidden-on-mobile {
@@ -86,4 +85,11 @@ nav{
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
      color:#707070;
+}
+.post-image-wrap img{
+    border:5px solid black;
+    width: 100%;
+    aspect-ratio:390/260;
+   object-fit: cover;
+
 }
