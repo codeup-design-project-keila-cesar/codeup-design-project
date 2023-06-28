@@ -115,6 +115,9 @@ nav{
     .circles {
         max-width:300px;
     }
+    .mb-5{
+        padding: 20px;
+    }
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
      color:#707070;
