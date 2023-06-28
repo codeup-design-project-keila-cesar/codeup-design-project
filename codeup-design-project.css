@@ -13,6 +13,8 @@ h1, h2 {
     border-style: solid;
     border-color: white;
     border-width: 10px;
+    font-family: 'Anton', sans-serif;
+
 }
 
 .design-icon {
@@ -147,6 +149,6 @@ h4{
 .lorem{
     font-weight: 500 ;
 }
-.icon-border > span{
-font-family: 'Anton', sans-serif;
+.mb-5{
+    font-family: Abel;
 }
