@@ -135,10 +135,9 @@ nav{
     max-width: unset;
     border: 5px solid #E6E6E6;
     object-fit: cover;
+    border-radius:8px;
+
 }
 h4{
     font-family: 'Anton', sans-serif;
-}
-.post-thumbnail{
-    border-radius:8px;
 }
