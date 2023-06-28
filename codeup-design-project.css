@@ -121,6 +121,11 @@ nav{
         padding: 20px;
     }
 }
+@media screen and (max-width: 768px) {
+    .hidden-on-tablet {
+        display: none;
+    }
+    }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
      color:#707070;
 }
@@ -151,4 +156,7 @@ h4{
 }
 .last-tweet {
     padding-left: 1rem !important;
+}
+h6{
+    font-weight: normal;
 }
