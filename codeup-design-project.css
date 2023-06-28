@@ -149,9 +149,6 @@ h4{
 .lorem{
     font-weight: 500 ;
 }
-.mb-5{
-    font-family: Abel;
-}
-.d-flex-align-items-center-justify-content-between >p{
-    p
+.last-tweet {
+    padding-left: 1rem !important;
 }
