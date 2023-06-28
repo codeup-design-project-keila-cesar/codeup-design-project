@@ -141,3 +141,9 @@ nav{
 h4{
     font-family: 'Anton', sans-serif;
 }
+.lorem{
+    font-weight: 500 ;
+}
+.icon-border > span{
+font-family: 'Anton', sans-serif;
+}
